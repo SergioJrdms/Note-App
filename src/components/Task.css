@@ -1,0 +1,17 @@
+.task-container{
+    background-color: #444;
+    margin: 8px 0;
+    padding: 15px 20px;
+    display: flex;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Mukta', sans-serif;
+    justify-content: space-between;
+    color: #eee;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 500ms;
+}
+.task-container:hover{
+    background-color: #555;
+}
